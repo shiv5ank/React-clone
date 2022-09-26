@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Inconsolata:wght@200&family=Mukta&family=Noto+Sans+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+KR&family=Inconsolata:wght@200&family=Mukta&family=Noto+Sans+Mono:wght@600&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+Arabic:wght@700&family=IBM+Plex+Sans+KR&family=Inconsolata:wght@200&family=Mukta&family=Noto+Sans+Mono:wght@600&family=Rubik+Dirt&display=swap');
+
+:root {
+  --white: #e1e1e1;
+  --green: #0eca98;
+}
+.App {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  
+  
+}
+
+.signin{
+  border-radius: 20px;
+  margin-left: 15%;
+  height: 70vh;
+  float: left;
+  background-color: #e1e1e1;
+  /* margin: 5px; */
+}
+
+.company {
+  text-align: left;
+  color: #0eca98;
+  font-size: larger bold;
+  padding-left: 5px;
+}
+
+h2 {
+  color: #0eca98;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600 1px solid bold;
+  text-align: center;
+}
+.Signup_section{
+  
+  margin-top: 180px;
+  margin-right: 20%;
+  margin-left: 20%;
+  height: 70vh;
+  border-radius: 20px;
+  text-align: center;
+  float: inline-end;
+  background-color: #0eca98;
+}
+
+.icon {
+  height: 8%;
+  width: 9%;
+  border:  solid #cfd6ff;
+  border-radius: 50%;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  margin-left: 65px;
+  font-weight: bold;
+  background-color: white;
+  
+}
+
+.instruction {
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+.sign_in {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 8px;
+  border-color: #0eca98;
+}
+
+.btn-signin {
+  border-radius: 20px;
+  background-color: #0eca98;
+  color: white;
+  border-color: #e1e1e1;
+  font-size: large;
+  padding: 5px 30px 5px 30px;
+}
+
+.footer_section {
+  text-align: center;
+}
+
+.invite_tag {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  padding-top: 110px;
+  color: white;
+}
+
+._ {
+  color: white;
+}
+.details {
+  color: white;
+}
+
+.btn-signup {
+  padding: 5px 30px 5px 30px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: #0eca98;
+  color: white;
+  border-color: #e1e1e1;
+}
